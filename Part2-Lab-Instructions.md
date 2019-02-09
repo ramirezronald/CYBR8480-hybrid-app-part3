@@ -1,4 +1,5 @@
-## Authors - Ronald Ramirez
+## Authors  
+Ronald Ramirez
 
 ###### Note - My app is a continuation to the previous author: Sai Guru Karthik Damuluri, who also used the same Cordova plugin. My new additions provide a more appealing look as well as a sound effect when clicking on the button.  
 
