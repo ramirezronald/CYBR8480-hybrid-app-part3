@@ -10,7 +10,7 @@ Cordova Plugin-Device -https://cordova.apache.org/docs/en/latest/reference/cordo
 __1. Install Cordova Plugin:__
 cordova plugin add cordova-plugin-device
 
-__2. Generate Ember Component__
+__2. Generate Ember Component:__
 ember generate component device-properties
 
 __3. Edit the following files:__
