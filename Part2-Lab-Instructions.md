@@ -5,7 +5,7 @@
 Plugin Name (which plugin did you look at?)
 Cordova Plugin-Device -https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-device/index.html
 
-##### __Usage__
+#### __Usage__
 
 __1. Install Cordova Plugin:__
 cordova plugin add cordova-plugin-device
