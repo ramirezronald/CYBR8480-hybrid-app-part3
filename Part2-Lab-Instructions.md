@@ -5,7 +5,7 @@
 Plugin Name (which plugin did you look at?)
 Cordova Plugin-Device -https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-device/index.html
 
-###### __Usage__
+##### __Usage__
 
 __1. Install Cordova Plugin:__
 cordova plugin add cordova-plugin-device
@@ -15,7 +15,7 @@ ember generate component device-properties
 
 __3. Edit the following files:__
 
-###### __3a. /app/templates/application.hbs__
+##### __3a. /app/templates/application.hbs__
 This feature will call the device-properties component. The rest of the code will set the Text and Button properties. I have added some customization to the text colors giving a more appealing view to the app.
 
 ```html
@@ -26,7 +26,7 @@ This feature will call the device-properties component. The rest of the code wil
 <marquee behavior="scroll" direction="right" color="">Click below</marquee></div>
 {{device-properties}}
 ```
-###### __3b. /app/templates/components/device-properties.hbs__
+##### __3b. /app/templates/components/device-properties.hbs__
 This sets up the button display, so that once it is clicked, you will receive the alert box with the device property information. I have also added some new customization feature to the button once it is pressed; you should hear a "beep" sound once it is clicked.
 
 ```html
@@ -61,7 +61,7 @@ This sets up the button display, so that once it is clicked, you will receive th
     </script>
 ```
 
-###### __3c. /app/component/device-properties.js__
+##### __3c. /app/component/device-properties.js__
 This is the .js part which works with Cordova to get the device property information as shown from the plugin documentation.
 
 ```js
