@@ -15,9 +15,10 @@ ember generate component device-properties
 
 3. Edit the following files:
 
-**3a. /app/templates/application.hbs
+3a. /app/templates/application.hbs
 This feature will call the device-properties component. The rest of the code will set the Text and Button properties. I have added some customization to the text colors giving a more appealing view to the app.
 
+```html
 <p><font face="verdana" font size ='6' color="#4c84af"><b>Device Properties</b></font></p>
 <div style="-moz-box-shadow: 1px 1px 3px 2px #4c84af;
   -webkit-box-shadow: 1px 1px 3px 2px #4c84af;
