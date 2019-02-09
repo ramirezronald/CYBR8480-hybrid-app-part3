@@ -1,6 +1,6 @@
 ## Authors - Ronald Ramirez
 
-*Note - My app is a continuation to the previous author: Sai Guru Karthik Damuluri, who also used the same Cordova plugin. My new additions provide a more appealing look as well as a sound effect when clicking on the button.
+Note - My app is a continuation to the previous author: Sai Guru Karthik Damuluri, who also used the same Cordova plugin. My new additions provide a more appealing look as well as a sound effect when clicking on the button.
 
 Plugin Name (which plugin did you look at?)
 Cordova Plugin-Device -https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-device/index.html
@@ -15,7 +15,7 @@ ember generate component device-properties
 
 3. Edit the following files:
 
-3a. /app/templates/application.hbs
+**3a. /app/templates/application.hbs
 This feature will call the device-properties component. The rest of the code will set the Text and Button properties. I have added some customization to the text colors giving a more appealing view to the app.
 
 <p><font face="verdana" font size ='6' color="#4c84af"><b>Device Properties</b></font></p>
