@@ -2,7 +2,7 @@
 
 ###### Note - My app is a continuation to the previous author: Sai Guru Karthik Damuluri, who also used the same Cordova plugin. My new additions provide a more appealing look as well as a sound effect when clicking on the button.  
 
-Plugin Name (which plugin did you look at?)
+#### Plugin Name (which plugin did you look at?)
 Cordova Plugin-Device -https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-device/index.html
 
 #### __Usage__
