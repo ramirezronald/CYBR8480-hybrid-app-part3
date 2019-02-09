@@ -64,6 +64,7 @@ This sets up the button display, so that once it is clicked, you will receive th
 3c. /app/component/device-properties.js
 This is the .js part which works with Cordova to get the device property information as shown from the plugin documentation.
 
+```js
 import Component from '@ember/component';
 
 export default Component.extend(
@@ -82,3 +83,4 @@ alert("Cordova version: " + device.cordova + "\n" +
     }
   }
 });
+```
