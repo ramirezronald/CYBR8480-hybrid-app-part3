@@ -1,16 +1,18 @@
+
+<!--ad scripts-->
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HybridappPart2</title>
+    <title>AttackApp</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{content-for "head"}}
 
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
-    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/hybridapp-part2.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/attacking-app.css">
 
     {{content-for "head-footer"}}
   </head>
@@ -18,8 +20,25 @@
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
-    <script src="{{rootURL}}assets/hybridapp-part2.js"></script>
+    <script src="{{rootURL}}assets/attacking-app.js"></script>
 
+    <!--ad scripts-->
+    <script type="text/javascript">
+      var testvar= [];
+      $.ajax({
+          url: 'http://hybridapp.mlhale.com/api/ads/3',
+          type: "GET",
+      }).then(function (data, status, request){
+        console.log("Successful ajax call: " + request.responseText);
+        $('#adverts').append(data.payload);
+      }).fail(function(request, status, error){
+        console.log("Ajax error: "+request.responseText);
+      });
+    </script>
     {{content-for "body-footer"}}
+    <p>Word from our sponsors</p>
+    <div id="adverts" style="width: 100%;">
+
+    </div>
   </body>
 </html>
