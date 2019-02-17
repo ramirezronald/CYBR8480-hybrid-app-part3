@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'hybridapp-part2',
+    modulePrefix: 'attacking-app',
     environment,
     rootURL: '',
     locationType: 'hash',
